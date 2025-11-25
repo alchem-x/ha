@@ -1,0 +1,35 @@
+{
+  "name": "ha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "bun src/main.ts",
+    "format": "prettier --write --cache ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alchem-x/ha.git"
+  },
+  "imports": {
+    "#src/*": "./src/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/alchem-x/ha/issues"
+  },
+  "homepage": "https://github.com/alchem-x/ha#readme",
+  "dependencies": {
+    "@hono/node-server": "1.19.9",
+    "hono": "4.12.1",
+    "mysql2": "3.17.4"
+  },
+  "devDependencies": {
+    "@types/node": "25.3.0",
+    "bun-types": "1.3.9",
+    "prettier": "3.8.1"
+  }
+}
