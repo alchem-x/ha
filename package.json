@@ -1,0 +1,29 @@
+{
+  "name": "ha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pnpx tsx src/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alchem-x/ha.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/alchem-x/ha/issues"
+  },
+  "homepage": "https://github.com/alchem-x/ha#readme",
+  "dependencies": {
+    "@hono/node-server": "1.19.6",
+    "hono": "4.10.6"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.1",
+    "prettier": "3.6.2"
+  }
+}
