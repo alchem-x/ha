@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hono App</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .container {
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      padding: 40px;
+      max-width: 600px;
+      width: 100%;
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .subtitle {
+      color: #666;
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+    }
+
+    .status {
+      display: inline-block;
+      background: #10b981;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      margin-bottom: 30px;
+    }
+
+    .info {
+      background: #f3f4f6;
+      border-radius: 10px;
+      padding: 20px;
+      margin-top: 30px;
+      text-align: left;
+    }
+
+    .info h2 {
+      color: #333;
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+    }
+
+    .info p {
+      color: #666;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+
+    .info code {
+      background: #e5e7eb;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: 'Monaco', 'Courier New', monospace;
+      font-size: 0.9em;
+      color: #d97706;
+    }
+
+    .footer {
+      margin-top: 30px;
+      color: #999;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🚀 Hono!</h1>
+    <p class="subtitle">快速、轻量的 Web 框架</p>
+    <div class="status">✓ 服务器运行中</div>
+    
+    <div class="info">
+      <h2>关于这个项目</h2>
+      <p>这是一个基于 <code>Hono</code> 框架构建的 Web 应用。</p>
+      <p>静态文件服务已配置，你现在可以访问 <code>public</code> 目录下的所有文件。</p>
+    </div>
+
+    <div class="footer">
+      <p>使用 Hono + TypeScript 构建</p>
+    </div>
+  </div>
+</body>
+</html>
+
